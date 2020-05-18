@@ -1,0 +1,4 @@
+#!/bin/bash
+# The Hello World! script
+
+echo "Hello World!"

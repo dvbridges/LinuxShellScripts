@@ -1,0 +1,20 @@
+#!/bin/bash
+
+# This script creates a html template
+# Simply run this script, directing the output
+# into another file e.g.,
+
+# $ htmlTemplate > index.html
+
+echo "<html>"
+echo "<head>"
+echo "  <title>"
+echo "  The title of your page"
+echo "  </title>"
+echo "</head>"
+echo ""
+echo "<body>"
+echo "  Your page content goes here."
+echo "</body>"
+echo "</html>"
+

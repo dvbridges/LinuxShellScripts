@@ -1,0 +1,11 @@
+#!/bin/bash
+
+# A function to call from another script
+Call() {
+ echo "You called..."
+}
+
+This() {
+ echo "A function called This"
+}
+

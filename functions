@@ -1,0 +1,16 @@
+#!/bin/bash
+
+todaysDate() {
+ echo -n "Today's date: "
+ date +"%A %B %-d, %Y"
+}
+
+# Typically, you would call a function from CMD like:
+# $ source <filePath>; todaysDate
+# Note, the lack of parens
+
+# To call a function from another script
+source ./callThis
+# Now, call two functions from the callThis script
+Call
+This
